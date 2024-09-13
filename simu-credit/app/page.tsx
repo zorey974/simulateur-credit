@@ -1,7 +1,7 @@
 'use client'; // Permet d'exécuter ce composant côté client
 
 import { useState } from 'react';
-import { Button, Input, Label } from '@/components/ui';
+import { Button, Input, Label } from '../components/ui';
 import {
   Card,
   CardContent,
@@ -9,7 +9,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/Card"
+} from "../components/ui/Card"
 
 export default function SimulateurCredit() {
   const [montant, setMontant] = useState('');
